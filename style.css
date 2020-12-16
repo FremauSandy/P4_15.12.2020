@@ -1,0 +1,140 @@
+body,
+section,
+article,
+.rectangle,
+footer{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 70%;
+    height: 95px;
+}
+.logo-header{
+    width: 215px;
+    height: 40px;
+}
+ul{
+    list-style: none;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+.presentation{
+    width: 100%;height: 440px;
+    background-image: url(images/la-chouette-agence-banniere.jpg);
+    background-attachment: fixed;
+}
+h1{
+    color:#F3976C;
+    font-size: 30px;
+}
+button{
+    color: white;
+    border-radius: 30px;
+    background-color:#F3976C;
+    border: none;
+    height: 50px;
+    width: 135px;
+    font-size: 16px;
+    font-weight: bold;
+}
+button:hover{
+    background: #c27956!important;
+}
+.service{
+    height: 626px;
+}
+.bloc-row{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: 60%;
+    height: 215px;
+}
+h3{
+    text-align: center;
+    font-size: 16px;
+}
+.tiny-text{
+    text-align: center;
+    font-size: 11px;
+}
+.grey{
+    color: #575757!important;
+}
+.what-i-do{
+    height: 545px;
+    background-image: url(images/image-de-presentation.bmp);
+    background-attachment: fixed;
+}
+.rectangle{
+    width: 520px;
+    height: 265px;
+    background-color: rgba(165, 147, 99, 0.7);
+    padding: 40px 40px 40px 40px;
+    text-align: center;
+    color: white;
+}
+h2{
+    color:#F3976C;
+    font-size: 20px;
+    width: 80%;
+}
+.link-rectangle{
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: underline;
+    color: white;
+}
+.portofolio{
+    height: 1230px;
+    background-image: url(images/lines-h2-bg.png);
+}
+.center-bloc{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+}
+.article-portofolio{
+    width: 270px;
+    height: 385px;
+    margin: 30px 15px 30px 15px;
+    background-color: transparent;
+}
+.cta{
+    background-image: url(images/la-chouette-agence-banniere.jpg);
+    height: 364px;
+    color:#F3976C;
+}
+footer{
+    background-color: #F3976C;
+    color: white;
+}
+.icon-contact{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 25%;
+    height: 50px;
+}
+.fab{
+    color: white;
+    opacity: 0.6;
+}
+.fab:hover{
+    opacity: 1;
+}
