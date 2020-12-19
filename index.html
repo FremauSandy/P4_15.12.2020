@@ -3,58 +3,59 @@
 <head>
     <meta charset="utf-8">
     <meta name="description" content="La Chouette Agence est une Agence Webdesign à Lyon qui vous accompagne dans vos objectifs commerciaux afin de trouver l'Image qui vous correspond! Prêts pour donner vie a votre projet ?">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-    <link rel="shortcut icon" type="image/png" href="favicon.jpg">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+	
+    
 	<link rel="stylesheet" type="text/css" href="style.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
- 	<script src="https://kit.fontawesome.com/ce02317acd.js"></script>
-	<script src="./js/jquery-2.1.0.js"></script>
-	<script src="./js/bootstrap.js"></script>
-	<script src="./js/blocs.js"></script>
-	<script src="./js/jquery.touchSwipe.js" defer></script>
-	<script src="./js/gmaps.js"></script>
+	<link rel="stylesheet" type="text/css" href="fonts/et-line.css">
+	<link rel="shortcut icon" type="image/png" href="images/favicon.jpg">
 
-    <title>La chouette agence | Agence Web | Lyon</title>
+ 	<script src="https://kit.fontawesome.com/ce02317acd.js"></script>
+
+    <title>La Chouette Agence | Entreprise de Web Design | Lyon</title>
 </head>
 
 <body>
 
 <!-- Header -->
 <header>
-	<div>
+	<div class="black-logo">
 		<img class="logo-header" src="images/la-chouette-agence.png" alt="logo-la-chouette-agence">
 	</div>
 	<ul>
-		<li><a href="page2.html">Contact</a></li>
+		<li><a href="#service">Préstations</a></li>
+		<li><a href="#portofolio">Portofolio</a></li>
+		<li>
+			<a href="#contact">
+				<button>CONTACT</button>
+			</a>
+		</li>
 	</ul>
 </header>
 
 <!-- Presentation -->
 <section class="presentation">
-	<div >
-		<img src="images/first-logo.png" alt="logo-background-black">
+	<div>
+		<img class="black" src="images/first-logo.png" alt="logo-background-black">
 	</div>
-	<h1>La chouette agence</h1>
-	<button>CONTACT</button>
+	<h1>Nous souhaitons aider les Entreprises à se développer pour atteindre leurs Objectifs et connaître le Succès!</h1>
 </section>
 
 <!-- Services -->
-<section class="service">	
-	<div >
-		<img src="images/title.png" alt="title-service">
-	</div>
+<section class="service" id="service">
 	<div class="bloc-row">
-		<article>
-			<h3>WEB DESIGN</h3>
-			<p class="tiny-text grey">Que vous ayez un site web qui a besoin d’un rafraîchissement ou que vous partiez de zéro, laissez-nous vous réaliser un design dont vous serez fier.</p>
+		<article class="article-service">
+			<span class="icon-services"></span>
+			<h3>ILLUSTRATIONS</h3>
+			<p class="tiny-text grey">Un bon design n'est rien sans de bonnes illustrations. Laissez faire notre équipe de graphistes talentueux pour donner à vos pages une touche finale d'élégance.</p>
 		</article>
-		<article>
+		<article class="article-service">
 			<h3> STRATÉGIE</h3>
 			<p class="tiny-text grey">Plutôt que de suggérer des designs à la mode, nous travaillerons avec vous pour comprendre vos objectifs commerciaux afin de vous proposer le meilleur design possible.</p>
 		</article>
-		<article>
-			<h3>ILLUSTRATIONS</h3>
-			<p class="tiny-text grey">Un bon design n'est rien sans de bonnes illustrations. Laissez faire notre équipe de graphistes talentueux pour donner à vos pages une touche finale d'élégance.</p>
+		<article class="article-service">
+			<h3>WEB DESIGN</h3>
+			<p class="tiny-text grey">Que vous ayez un site web qui a besoin d’un rafraîchissement ou que vous partiez de zéro, laissez-nous vous réaliser un design dont vous serez fier.</p>
 		</article>
 	</div>
 	<div >
@@ -67,12 +68,11 @@
 	<div class=" rectangle">
 		<h2>Nous souhaitons aider les entreprises de la région Lyonnaise à se développer et à connaître le succès. Nous travaillons pour aider les entreprises locales à attirer de nouveaux clients </h2>
 		<p class="tiny-text">Nous aimons collaborer avec des entrepreneurs créatifs et des entreprises locale, qu’elles aient besoin de créer un site de A à Z ou de donner un coup de jeune à leur site. Que vous ayez besoin d’une identité visuelle complète ou d’une refonte de votre site, n’hésitez pas à nous contacter. Nous travaillerons ensemble pour créer des sites beau et bien structurés, qui seront facilement trouvable sur les moteurs de recherche.</p>
-	<a class="link-rectangle" href="page2.html">Contactez notre équipe</a>
 </div>
 </section>
 
 <!--Portfolio -->
-<section class="portofolio">
+<section class="portofolio" id="portofolio">
 	<div>
 		<img src="images/title2.png" alt="title-portofolio">
 	</div>
@@ -101,16 +101,38 @@
 </section>
 
 <!-- Cta -->
-<section class="cta">
-	<p>Prêt our redonner vie à votre projet ?
-		Contactez notre équipe !
-	</p>
-	<button>Contact</button>
+<section class="contact" id="contact">
+	<form action="contact" method="GET">
+		<h2 class="title-form">Prêt à redonner vie à votre projet ?
+			Contactez notre équipe !
+		</h2>
+		<span class="first-line">
+			<div>
+				<label for="name">Nom</label>
+				<input type="text" name="name">
+			</div>
+			<div>
+				<label for="email">Adresse Email</label>
+				<input type="email" name="email">
+			</div>
+		</span>
+        <div class="second-line">
+            <label for="know">Comment nous avez-vous connu ?</label>
+            <input type="text" name="know">
+		</div>
+		<div class="third-line">
+			<label for="Brief">Votre projet en quelques lignes</label>
+			<input type="text" name="brief"  minlength="20" maxlength="250" size="10">
+		</div>
+		<button class="send">Envoyer</button>
+	</form>
 </section>
 
 <!-- Footer-->
 <footer>
-	<p>La chouette agence - Agence web basée à Lyon.</p>
+	<p class="tiny-text">contact@lachouetteagence.com <br>
+        2 place Sathonay 69001 Lyon
+        Ouvert de 9h à 18h, du lundi au vendredi</p>
 	<div class="icon-contact">
 		<a href="index.html">
 			<i class="fab fa-twitter fa-2x"></i>
