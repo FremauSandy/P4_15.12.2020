@@ -87,6 +87,9 @@ button{
     font-weight: bold;
     transition: all 0.5s ease-in-out;
 }
+button>a{
+    color: white;
+}
 button:hover{
     background: #c27956!important;
 }
@@ -112,7 +115,7 @@ h1{
 }
 /* Préstation Section */
 .service{
-    padding: 30px 0 30px 0;
+    padding: 60px 0 60px 0;
 }
 .bloc-row{
     display: flex;
@@ -181,6 +184,9 @@ h3{
     text-align: center;
     color: white;
 }
+.rectangle>h2{
+    color:  #F3976C;
+}
 @media screen and (max-width: 800px){
     .rectangle{
         width: 100%;
@@ -193,8 +199,12 @@ h3{
     }
 }
 h2{
-    color:#F3976C;
-    font-size: 20px;
+    font-weight: lighter;
+    font-size: 22px;
+    text-align: center;
+    color: grey;
+}
+.title{
     width: 80%;
 }
 .link-rectangle{
@@ -207,13 +217,6 @@ h2{
 .portofolio{
     padding: 5% 0 5% 0;
     background-image: url(images/lines-h2-bg.png);
-}
-.text-portofolio{
-    width: 80%;
-    font-weight: lighter;
-    font-size: 22px;
-    text-align: center;
-    color: grey;
 }
 .center-bloc{
     display: flex;
@@ -249,7 +252,11 @@ form{
     padding: 20px;
     max-width: 600px;
     height: 70%;
-    color:  #F3976C;
+    color: #F3976C;
+}
+form>h2{
+    color:#F3976C;
+    width: 70%;
 }
 @media screen and (max-width: 800px){
     form{
@@ -257,7 +264,7 @@ form{
         width: 100%;
         height: 100%;
     }
-    .title-form{
+    form>h2{
         width: 90%;
     }
     form>.first-line{
