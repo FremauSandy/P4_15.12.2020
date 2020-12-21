@@ -1,3 +1,4 @@
+/* breackpoints : 1120px, 800px ,500px */
 @font-face{
     font-family: "et-line";
     src: url(fonts/et-line.eot);
@@ -33,34 +34,23 @@ header{
     top: 0;
     left: 0;
 }
-nav{
-    display: none;
-}
-@media screen and (max-width:800px){
-    header>nav{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
+@media screen and (max-width:1120px){
+    .logo-header{
+        margin-left: 10%;
     }
-    header>ul{
-        display: none;
-    }
-}
-.icon-bar{
-    border: 0;
-    width: 26px;
 }
 .logo-header{
     height: 40px;
     margin-left: 20%;
 }
-@media screen and (max-width:1120px){
+@media screen and (max-width:500px){
     .logo-header{
-        margin-left: 10%;
+        margin-left: 5%;
     }
-    ul{
-        margin-right: 0; /* ne fonctionne pas */
-    }
+}
+.menu-checkbox{
+    opacity: 0;
+    width: auto;
 }
 ul{
     display: flex;
@@ -71,6 +61,41 @@ li{
     justify-content: center;
     align-items: center;
     margin: 15px;
+}
+@media screen and (max-width:800px){
+    .menu-toggle{
+        position: absolute;
+        top: 25px;
+        right: 10px;
+        width: 50px;
+        height:50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .icon-bar{
+        width: 24px;
+        height: 2px;
+        background-color: #575757;
+        border: solid 1px#575757;
+        margin: 2px;
+    }
+    .menu-checkbox:checked ~.large-menu{
+        position: absolute;
+        top: 78px;
+        right: 0;
+        flex-direction: column;
+        list-style: none;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color:rgba(255, 255, 255, 0.7);
+    }
+    .large-menu{
+        display: none;
+    }
 }
 a{
     color: black;
@@ -85,7 +110,6 @@ a{
     width: 110px;
     font-size: 14px;
     font-weight: bold;
-    transition: all 0.5s ease-in-out;
 }
 .button>a{
     color: white;
@@ -150,10 +174,10 @@ h1{
     font-style: italic;
     text-align: center;
     font-weight: bold;
-    color: grey;
+    color: #575757;
 }
 .signature{
-    color: grey;
+    color: #575757;
     margin: 0;
 }
 .icon-services{
@@ -215,10 +239,16 @@ h2{
     font-weight: lighter;
     font-size: 22px;
     text-align: center;
-    color: grey;
+    color:  #575757;
 }
 .title{
     width: 80%;
+}
+@media screen and (max-width:500px){
+    h2,
+    .title{
+        width: 90%;
+    }
 }
 .link-rectangle{
     font-size: 12px;
