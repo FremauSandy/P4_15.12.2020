@@ -1,4 +1,4 @@
-/* breackpoints : 1120px, 800px ,500px */
+/*responsive: 1120px, 800px, 500px*/
 @font-face{
     font-family: "et-line";
     src: url(fonts/et-line.eot);
@@ -121,10 +121,10 @@ button:hover{
 /* Présentation Section */
 .presentation{
     height: 350px;
-    background-image: url(images/texture-paper.png), url(images/la-chouette-agence-banniere.jpg);
+    background-image: url(images/texture-paper.png), url(images/banniere-chouette-agence.jpg);
     background-repeat: repeat, no-repeat;
     background-size: 280px 280px ,cover;
-    background-position: right bottom, left top;
+    background-position: right bottom, center;
 }
 h1{
     width: 70%;
@@ -208,10 +208,10 @@ h3{
 /* What Section */
 .what-i-do{
     height: 500px;
-    background-image: url(images/texture-paper.png), url(images/image-de-presentation.bmp);
+    background-image: url(images/texture-paper.png), url(images/presentation.jpg);
     background-repeat: repeat, no-repeat;
     background-size: 280px 280px ,cover;
-    background-position: right bottom, left top;
+    background-position: right bottom, center;
 }
 .rectangle{
     width: 520px;
@@ -256,8 +256,8 @@ h2{
     text-decoration: underline;
     color: white;
 }
-/* Portofolio Section */
-.portofolio{
+/* Portfolio Section */
+.portfolio{
     padding: 5% 0 5% 0;
     background-image: url(images/lines-h2-bg.png);
 }
@@ -273,7 +273,7 @@ h2{
         width: 80%;
     }
 }
-.article-portofolio{
+.article-portfolio{
     width: 270px;
     height: 385px;
     margin: 30px 15px 30px 15px;
