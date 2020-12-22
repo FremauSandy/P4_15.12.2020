@@ -113,7 +113,7 @@ button:hover{
 /* Présentation Section */
 .presentation{
     height: 350px;
-    background-image: url(images/texture-paper.png), url(images/banniere-chouette-agence.jpg);
+    background-image: url(images/texture-paper.png), url(images/banniere-chouette-agence.webp);
     background-repeat: repeat, no-repeat;
     background-size: 280px 280px ,cover;
     background-position: right bottom, center;
@@ -200,7 +200,7 @@ h3{
 /* What Section */
 .what-i-do{
     height: 500px;
-    background-image: url(images/texture-paper.png), url(images/presentation.jpg);
+    background-image: url(images/texture-paper.png), url(images/presentation.webp);
     background-repeat: repeat, no-repeat;
     background-size: 280px 280px ,cover;
     background-position: right bottom, center;
@@ -251,7 +251,7 @@ h2{
 /* Portfolio Section */
 .portfolio{
     padding: 5% 0 5% 0;
-    background-image: url(images/lines-h2-bg.jpg);
+    background-image: url(images/lines-h2-bg.webp);
 }
 .center-bloc{
     display: flex;
@@ -274,7 +274,7 @@ h2{
 /* Contact Section */
 .contact{
     height: 500px;
-    background-image: url(images/texture-paper.png), url(images/dots-bg.png);
+    background-image: url(images/texture-paper.png), url(images/dots-bg.webp);
     background-repeat: repeat, repeat;
     background-size: 280px 280px, 100px 100px;
     background-position: right bottom, left top;
