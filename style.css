@@ -57,7 +57,7 @@ li{
 @media screen and (max-width:800px){
     .menu-toggle{
         position: absolute;
-        top: 25px;
+        top: 35px;
         right: 10px;
         width: 50px;
         height:50px;
@@ -96,7 +96,7 @@ a{
 .button{
     color: white;
     border-radius: 30px;
-    background-color:#F3976C;
+    background-color: #ff5000;
     border: none;
     height: 40px;
     width: 110px;
@@ -108,7 +108,7 @@ a{
 }
 .button:hover,
 button:hover{
-    background: #c27956!important;
+    background: #F3976C;
 }
 /* Présentation Section */
 .presentation{
@@ -121,8 +121,12 @@ button:hover{
 h1{
     width: 70%;
     text-align: center;
-    color:#c27956;
+    color:#F3976C;
     font-size: 30px;
+}
+.black{
+    width: 100px;
+    height: 100px;
 }
 @media screen and (max-width:1120px){
     h1{
@@ -187,7 +191,7 @@ h3{
     font-size: 12px;
 }
 .grey{
-    color: #575757!important;
+    color: #575757;
 }
 @media screen and (max-width:800px){
     .bloc-row{
@@ -208,13 +212,13 @@ h3{
 .rectangle{
     width: 520px;
     height: 265px;
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0, 0.5);
     padding: 40px 40px 40px 40px;
     text-align: center;
     color: white;
 }
 .rectangle>h2{
-    color:  #F3976C;
+    color:  #ff5000;
 }
 @media screen and (max-width: 800px){
     .rectangle{
@@ -258,12 +262,7 @@ h2{
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    width: 60%;
-}
-@media screen and (max-width:1120px){
-    .center-bloc{
-        width: 80%;
-    }
+    width: 80%;
 }
 .article-portfolio{
     width: 270px;
@@ -271,27 +270,30 @@ h2{
     margin: 30px 15px 30px 15px;
     background-color: transparent;
 }
+.img-portfolio{
+    width: 270px;
+    height: 270px;
+}
 /* Contact Section */
 .contact{
-    height: 500px;
+    height: 550px;
     background-image: url(images/texture-paper.png), url(images/dots-bg.webp);
     background-repeat: repeat, repeat;
     background-size: 280px 280px, 100px 100px;
     background-position: right bottom, left top;
-    
     background-color: #F3976C;
 }
 form{
-    color: white;
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0, 0.5);
     padding: 20px;
     max-width: 600px;
-    height: 70%;
+    height: 80%;
     color: #F3976C;
 }
 form>h2{
     color:#F3976C;
     width: 70%;
+    margin: 10px 0 0 0;
 }
 @media screen and (max-width: 800px){
     form{
@@ -313,16 +315,8 @@ form>h2{
     text-align: center;
     width: 70%;
 }
-.first-line{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-.first-line,
-.second-line,
-.third-line{
-    margin: 10px;
-    width: 85%;
+.name-form{
+    width: 80%;
 }
 input{
     border-radius: 30px;
@@ -333,26 +327,29 @@ input{
 button{
     color: white;
     border-radius: 30px;
-    background-color:#F3976C;
+    background-color:#ff5000;
     border: none;
     height: 40px;
     width: 110px;
     font-size: 14px;
     font-weight: bold;
-    transition: all 0.5s ease-in-out;
-    margin: 10px;
+    margin: 20px 0 10px 0;
 }
 /* Footer */
 footer{
-    color: #F3976C;
-    padding: 10px 0 10px 0;
+    padding-top: 10px;
 }
 .icon-contact{
     display: flex;
     flex-direction: row;
+    text-align: center;
     justify-content: space-between;
-    width: 25%;
-    height: 50px;
+    width: 30%;
+    margin-bottom: 30px;
+}
+.text-footer{
+    color:#ff5000;
+    font-size: 12px;
 }
 @media screen and (max-width: 800px){
     .icon-contact{
@@ -360,7 +357,7 @@ footer{
     }
 }
 .fab{
-    color: #F3976C;
+    color: #ff5000;
     opacity: 0.6;
 }
 .fab:hover{
