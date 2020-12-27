@@ -35,6 +35,9 @@ header{
     height: 40px;
     margin-left: 20%;
 }
+.menu-toggle{
+    display: none;
+}
 @media screen and (max-width:500px){
     .logo-header{
         margin-left: 5%;
@@ -65,6 +68,7 @@ li{
         align-items: center;
         justify-content: center;
         flex-direction: column;
+        font: none;
     }
     .icon-bar{
         width: 24px;
@@ -96,7 +100,7 @@ a{
 .button{
     color: white;
     border-radius: 30px;
-    background-color: #ff5000;
+    background-color: #D04A0A;
     border: none;
     height: 40px;
     width: 110px;
@@ -218,7 +222,7 @@ h3{
     color: white;
 }
 .rectangle>h2{
-    color:  #ff5000;
+    color:  #D04A0A;
 }
 @media screen and (max-width: 800px){
     .rectangle{
@@ -327,7 +331,7 @@ input{
 button{
     color: white;
     border-radius: 30px;
-    background-color:#ff5000;
+    background-color:#D04A0A;
     border: none;
     height: 40px;
     width: 110px;
@@ -348,7 +352,7 @@ footer{
     margin-bottom: 30px;
 }
 .text-footer{
-    color:#ff5000;
+    color:#D04A0A;
     font-size: 12px;
 }
 @media screen and (max-width: 800px){
@@ -357,7 +361,7 @@ footer{
     }
 }
 .fab{
-    color: #ff5000;
+    color: #D04A0A;
     opacity: 0.6;
 }
 .fab:hover{
