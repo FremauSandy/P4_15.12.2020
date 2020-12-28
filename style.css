@@ -1,4 +1,4 @@
-/* Body */
+/*Body*/
 body,
 header,
 section,
@@ -15,7 +15,7 @@ footer{
     align-items: center;
     margin: 0;
 }
-/* header */
+/*header*/
 header{
     flex-direction: row;
     justify-content: space-between;
@@ -111,7 +111,7 @@ a{
 button:hover{
     background: #F3976C;
 }
-/* Présentation Section */
+/*Présentation Section*/
 .presentation{
     height: 350px;
     background-image: url(images/texture-paper.png), url(images/banniere-chouette-agence.webp);
@@ -135,7 +135,7 @@ h1{
         font-size: 25px;
     }
 }
-/* Préstation Section */
+/*Service Section*/
 .service{
     padding: 60px 0 60px 0;
 }
@@ -202,7 +202,7 @@ h3{
         width: 80%;
     }
 }
-/* What Section */
+/*What Section*/
 .what-i-do{
     height: 500px;
     background-image: url(images/texture-paper.png), url(images/presentation.webp);
@@ -253,7 +253,7 @@ h2{
     text-decoration: underline;
     color: white;
 }
-/* Portfolio Section */
+/*Portfolio Section*/
 .portfolio{
     padding: 5% 0 5% 0;
     background-image: url(images/lines-h2-bg.webp);
@@ -275,7 +275,7 @@ h2{
     width: 270px;
     height: 270px;
 }
-/* Contact Section */
+/*Contact Section*/
 .contact{
     height: 550px;
     background-image: url(images/texture-paper.png), url(images/dots-bg.webp);
@@ -344,7 +344,7 @@ button{
     font-weight: bold;
     margin: 20px 0 10px 0;
 }
-/* Footer */
+/*Footer*/
 footer{
     padding-top: 10px;
 }
