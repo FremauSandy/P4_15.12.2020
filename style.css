@@ -35,9 +35,6 @@ header{
     height: 40px;
     margin-left: 20%;
 }
-.menu-toggle{
-    display: none;
-}
 @media screen and (max-width:500px){
     .logo-header{
         margin-left: 5%;
