@@ -111,10 +111,10 @@ button:hover{
 /*Présentation Section*/
 .presentation{
     height: 350px;
-    background-image: url(images/banniere-chouette-agence.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    background-image: url(images/texture-paper.png), url(images/banniere-chouette-agence.webp);
+    background-repeat: repeat, no-repeat;
+    background-size: 280px 280px ,cover;
+    background-position: right bottom, center;
     background-color: #364577;
 }
 h1{
@@ -203,10 +203,10 @@ h3{
 /*What Section*/
 .what-i-do{
     height: 500px;
-    background-image: url(images/presentation.webp);
-    background-repeat: no-repeat;
-    background-size:cover;
-    background-position: center;
+    background-image: url(images/texture-paper.png), url(images/presentation.webp);
+    background-repeat: repeat, no-repeat;
+    background-size: 280px 280px ,cover;
+    background-position: right bottom, center;
 }
 .rectangle{
     width: 520px;
