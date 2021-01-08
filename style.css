@@ -5,7 +5,7 @@ section,
 article, 
 .rectangle, 
 form, 
-footer{
+footer {
     font-family: "Helvetica Neue", Helvetica, sans-serif;
     background-color: white;
     width: 100%;
@@ -16,7 +16,7 @@ footer{
     margin: 0;
 }
 /*header*/
-header{
+header {
     flex-direction: row;
     justify-content: space-between;
     width: 100%;
@@ -69,6 +69,7 @@ li{
         height: 4px;
         background-color: #575757;
         margin: 1px;
+        font-size: 0px;
     }
     .menu-checkbox:checked ~.large-menu{
         position: absolute;
