@@ -40,7 +40,8 @@ header {
         margin-left: 5%;
     }
 }
-.menu-checkbox{
+.menu-checkbox,
+.menu-toggle{
     opacity: 0;
     width: auto;
 }
@@ -56,6 +57,7 @@ li{
 }
 @media screen and (max-width:800px){
     .menu-toggle{
+        opacity: 1;
         position: absolute;
         top: 35px;
         right: 10px;
@@ -88,7 +90,8 @@ li{
     }
 }
 a{
-    color: black;
+    color: #575757;
+    font-weight: bold;
     text-decoration: none;
 }
 .button{
@@ -273,6 +276,9 @@ h2{
     width: 270px;
     height: 270px;
 }
+.img-portfolio:hover{
+    opacity: 0.5;
+}
 /*Contact Section*/
 .contact{
     height: 550px;
@@ -357,6 +363,9 @@ footer{
 .text-footer{
     color:#D04A0A;
     font-size: 12px;
+}
+footer>.tiny-text{
+    color:#D04A0A;
 }
 @media screen and (max-width: 800px){
     .icon-contact{
